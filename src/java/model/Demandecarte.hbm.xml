@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 24 f?vr. 2015 21:04:47 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="model.Demandecarte" table="demandecarte" catalog="ebanking" optimistic-lock="version">
+        <id name="idDemandeCarte" type="java.lang.Integer">
+            <column name="idDemandeCarte" />
+            <generator class="identity" />
+        </id>
+        <property name="dateDemandeCarte" type="date">
+            <column name="dateDemandeCarte" length="10" not-null="true" />
+        </property>
+        <property name="typeCarte" type="string">
+            <column name="typeCarte" length="100" not-null="true" />
+        </property>
+        <property name="etatCarte" type="string">
+            <column name="etatCarte" length="100" not-null="true" />
+        </property>
+        <property name="dateDelivrance" type="date">
+            <column name="dateDelivrance" length="10" not-null="true" />
+        </property>
+        <property name="numCompte" type="int">
+            <column name="numCompte" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

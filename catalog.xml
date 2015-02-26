@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/ServicesCommunsV04/ComptesWS?wsdl" uri="src/conf/xml-resources/web-service-references/ComptesWS/wsdl/localhost_8080/ServicesCommunsV04/ComptesWS.wsdl"/>
+    <system systemId="http://localhost:8080/ServicesCommunsV04/ComptesWS?xsd=1" uri="src/conf/xml-resources/web-service-references/ComptesWS/wsdl/localhost_8080/ServicesCommunsV04/ComptesWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ServicesCommunsV04/MouvementsWS?wsdl" uri="src/conf/xml-resources/web-service-references/MouvementsWS/wsdl/localhost_8080/ServicesCommunsV04/MouvementsWS.wsdl"/>
+    <system systemId="http://localhost:8080/ServicesCommunsV04/MouvementsWS?xsd=1" uri="src/conf/xml-resources/web-service-references/MouvementsWS/wsdl/localhost_8080/ServicesCommunsV04/MouvementsWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ServicesCommunsV04/CartesWS?wsdl" uri="src/conf/xml-resources/web-service-references/CartesWS/wsdl/localhost_8080/ServicesCommunsV04/CartesWS.wsdl"/>
+    <system systemId="http://localhost:8080/ServicesCommunsV04/CartesWS?xsd=1" uri="src/conf/xml-resources/web-service-references/CartesWS/wsdl/localhost_8080/ServicesCommunsV04/CartesWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ServicesCommunsV04/TestMouvementsWS?wsdl" uri="src/conf/xml-resources/web-service-references/TestMouvementsWS/wsdl/localhost_8080/ServicesCommunsV04/TestMouvementsWS.wsdl"/>
+    <system systemId="http://localhost:8080/ServicesCommunsV04/TestMouvementsWS?xsd=1" uri="src/conf/xml-resources/web-service-references/TestMouvementsWS/wsdl/localhost_8080/ServicesCommunsV04/TestMouvementsWS.xsd_1.xsd"/>
+</catalog>
